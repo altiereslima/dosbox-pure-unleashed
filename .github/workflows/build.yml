@@ -2,6 +2,7 @@
 name: Compilação para Windows (x64)
 
 on:
+  # Executa automaticamente quando você envia ("push") código para a branch "main"
   push:
     branches: [ "main" ]
     
